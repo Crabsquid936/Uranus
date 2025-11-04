@@ -1,0 +1,15 @@
+{
+  "name": "uranus-3d-modeler",
+  "version": "0.1.0",
+  "description": "Minimal prototype for a web-based 3D modeler.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "serve public"
+  },
+  "dependencies": {
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "serve": "^14.0.1"
+  }
+}
