@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import { clamp, randomColor, degToRad, lerp } from './utils.js';
 
 export class Renderer {
   constructor() {
