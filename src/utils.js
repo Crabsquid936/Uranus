@@ -7,6 +7,8 @@
  * @param {number} max
  * @returns {number}
  */
+import { clamp, randomColor, degToRad, lerp } from './utils.js';
+
 export function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
 }
